@@ -2,13 +2,10 @@ liczbaEgz=int(input())
 ans = []
 biblioteka = []
 wypozyczone = {}
-n=0
 
 for i in range(liczbaEgz):
     operation = eval(input())
-    opeartionType = operation[0].strip()
-    n+=1
-    print(n) 
+    opeartionType = operation[0].strip() 
     if opeartionType == "dodaj":
         biblioteka.append(operation[1])
         ans.append(True)
